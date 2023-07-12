@@ -12,28 +12,28 @@ class Solution
     int missingNumber(int arr[], int n) 
     { 
         // Your code here
-        sort(arr,arr+n);
-        int a=-1;
         for(int i=0;i<n;i++){
-            if(arr[i]>0) {
-                a=i;break;
-            }
-        }
-        if(a==-1) return 1;
-        int ct=1;
-        if(a==n-1){
-            if(arr[a]==1) return 2;
-            else return 1;
+            if(arr[i]<0) arr[i]=0;
         }
         
-        if(arr[a]!=1) return 1;
-        for(int i=a;i<n-1;i++){
-           if(arr[i+1]-arr[i]>1){
-               return arr[i]+1;
-           }
-            
+        for(int i=0;i<n;i++){
+            if(0<=abs(arr[i])-1&&abs(arr[i])<n){
+                if(arr[abs(arr[i])-1]>0){
+                    arr[abs(arr[i])-1]=-arr[abs(arr[i])-1];
+                }
+                else if(arr[abs(arr[i])-1]==0){
+                     arr[abs(arr[i])-1]=-(n+3);
+                }
+            }
         }
-        return arr[n-1]+1;
+        for(int i=1;i<=n;i++){
+            if(arr[i-1]>=0){
+                return i;
+            }
+        }
+        return n+1;
+        
+        
     } 
 };
 
