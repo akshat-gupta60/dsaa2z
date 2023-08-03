@@ -18,6 +18,14 @@ class Solution
         deque<int>q;
         int i=0,j=0;
         vector<int>ans;
+        
+        if(k>n){
+            int mx=-1;
+            for(int i=0;i<n;i++){
+                mx=max(mx,arr[i]);
+            }
+            return {mx};
+        }
         while(j<n){
             while(!q.empty()&&q.back()<arr[j]){
                 q.pop_back();
