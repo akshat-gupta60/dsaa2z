@@ -28,7 +28,19 @@ class Solution
     {
         // Your code here
         vector<int>dp(n+1,-1);
-        return rec(n-1,arr,dp);
+        
+        dp[0]=arr[0];
+        
+        for(int i=1;i<n;i++){
+            
+            
+            int pick=arr[i];
+            if(i>1) pick=pick+dp[i-2];
+            int notpick=0+dp[i-1];
+            dp[i]=max(pick,notpick);
+        }
+        return dp[n-1];
+       
     }
 };
 
