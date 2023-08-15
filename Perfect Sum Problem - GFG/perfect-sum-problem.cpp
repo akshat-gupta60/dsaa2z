@@ -33,12 +33,38 @@ class Solution{
             if(arr[i]!=0) v.push_back(arr[i]);
         }
         int n1=v.size();
-        vector<vector<int>>dp(n1+1,vector<int>(sum+1,-1));
+        vector<vector<int>>dp(n1+1,vector<int>(sum+1,0));
+        
+        
         for(int i=0;i<n;i++){
             if(arr[i]==0) ct++;
         }
         
-        return pow(2,ct)*rec(n1-1,v,sum,dp);
+        for(int i=0;i<n1;i++){
+            dp[i][0]=1;
+        }
+        
+        if(v[0]<=sum) dp[0][v[0]]=1;
+        
+        
+        for(int ind=1;ind<n1;ind++){
+            for(int j=0;j<=sum;j++){
+                int not_pick=dp[ind-1][j];
+	    int pick=0;
+	    
+	    if(v[ind]<=j){
+	     pick=dp[ind-1][j-v[ind]];
+	    }
+	    dp[ind][j]=(pick+not_pick)%mod;
+            }
+            
+            
+            
+        }
+        
+        
+        
+        return pow(2,ct)*dp[n1-1][sum];
 	}
 	  
 };
