@@ -16,8 +16,7 @@ class Solution
             }
             else return 0;
         }
-        if(wt==0) return 0;
-        if(wt<0) return 0;
+       
         
         if(dp[ind][w]!=-1) return dp[ind][w];
         
@@ -33,8 +32,27 @@ class Solution
     int knapSack(int W, int wt[], int val[], int n) 
     { 
        // Your code here
-       vector<vector<int>>dp(n+1,vector<int>(W+1,-1));
-       return rec(n-1,W,wt,val,dp);
+       vector<vector<int>>dp(n+1,vector<int>(W+1,0));
+      for(int i=wt[0];i<=W;i++){
+          dp[0][i]=val[0];
+      }
+      
+      
+      for(int ind=1;ind<n;ind++){
+          for(int w=0;w<=W;w++){
+               
+        int not_pick=0+dp[ind-1][w];
+        
+        int pick=-1e8;
+        if(wt[ind]<=w){
+            pick=val[ind]+dp[ind-1][w-wt[ind]];
+        }
+        
+         dp[ind][w]=max(pick,not_pick);
+          }
+      }
+       
+       return dp[n-1][W];
     }
 };
 
