@@ -30,7 +30,7 @@ public:
     {
         // code here
         
-        vector<int>prev(W+1,0),curr(W+1,0);
+        vector<int>prev(W+1,0);
         
         for(int i=0;i<=W;i++){
             prev[i]=val[0]*(i/wt[0]);
@@ -42,12 +42,12 @@ public:
                 int not_take=0+prev[target];
                 int take=0;
                 if(wt[ind]<=target){
-                    take=val[ind]+curr[target-wt[ind]];
+                    take=val[ind]+prev[target-wt[ind]];
                 }
         
-         curr[target]=max(take,not_take);
+         prev[target]=max(take,not_take);
             }
-            prev=curr;
+           
         }
         
         return prev[W];
