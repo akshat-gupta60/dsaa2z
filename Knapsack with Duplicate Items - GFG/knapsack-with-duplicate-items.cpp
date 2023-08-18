@@ -30,26 +30,27 @@ public:
     {
         // code here
         
-        vector<vector<int>>dp(N+1,vector<int>(W+1,0));
+        vector<int>prev(W+1,0),curr(W+1,0);
         
         for(int i=0;i<=W;i++){
-            dp[0][i]=val[0]*(i/wt[0]);
+            prev[i]=val[0]*(i/wt[0]);
         }
         
         
         for(int ind=1;ind<N;ind++){
             for(int target=0;target<=W;target++){
-                int not_take=0+dp[ind-1][target];
+                int not_take=0+prev[target];
                 int take=0;
                 if(wt[ind]<=target){
-                    take=val[ind]+dp[ind][target-wt[ind]];
+                    take=val[ind]+curr[target-wt[ind]];
                 }
         
-         dp[ind][target]=max(take,not_take);
+         curr[target]=max(take,not_take);
             }
+            prev=curr;
         }
         
-        return dp[N-1][W];
+        return prev[W];
     }
 };
 
