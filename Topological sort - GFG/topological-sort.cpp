@@ -28,34 +28,56 @@ class Solution
         
         st.push(node);
     }
+    
+    
+    
 	vector<int> topoSort(int V, vector<int> adj[]) 
 	{
 	    // code here
 	    
-	    stack<int>st;
+	    vector<int>indegree(V,0);
 	    
-	    vector<int>vis(V,0);
-	    
-	    
-	    
-	   
 	    
 	    for(int i=0;i<V;i++){
-	        if(!vis[i]){
-	            dfs(i,vis,adj,st);
+	        for(auto it:adj[i]){
+	            indegree[it]++;
+	        }
+	    }
+	    
+	    queue<int>q;
+	    
+	    
+	    for(int i=0;i<V;i++){
+	        if(indegree[i]==0){
+	            q.push(i);
+	        }
+	    }
+	    
+	    vector<int>topo;
+	    while(q.size()!=0){
+	        int node=q.front();
+	        
+	        
+	        q.pop();
+	        
+	        topo.push_back(node);
+	        
+	        for(auto pr:adj[node]){
+	            indegree[pr]--;
+	            
+	            if(indegree[pr]==0){
+	                q.push(pr);
+	            }
 	        }
 	    }
 	    
 	    
-	    vector<int>topo;
-	    
-	    while(!st.empty()){
-	        topo.push_back(st.top());
-	        st.pop();
-	    }
-	    
 	    return topo;
 	    
+	    
+	    
+	    
+	   
 	    
 	    
 	}
