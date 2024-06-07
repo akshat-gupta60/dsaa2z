@@ -6,6 +6,7 @@ public:
         int n=v.size();
         int m=v[0].size();
 
+        
         int start=0, end=m-1;
 
         while(start<=end){
@@ -19,8 +20,8 @@ public:
                 }
 
             }
-
-             bool leftIsBig = (mid - 1 >= 0 && v[mx_ind][mid - 1] > v[mx_ind][mid]);
+            
+            bool leftIsBig = (mid - 1 >= 0 && v[mx_ind][mid - 1] > v[mx_ind][mid]);
             bool rightIsBig = (mid + 1 < m && v[mx_ind][mid + 1] > v[mx_ind][mid]);
 
             // If the middle element is greater than its neighbors, it is a peak
@@ -31,6 +32,7 @@ public:
             } else {
                 start = mid + 1; // Move to the right half
             }
+        
         }
         return {};
     }
