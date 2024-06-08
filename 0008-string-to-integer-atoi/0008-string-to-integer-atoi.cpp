@@ -29,11 +29,24 @@ public:
 
 
         int is_neg=0;
-        if(s[start_ind]=='-'){
-            is_neg=is_neg+1;
-            start_ind++;
-            
+        
+
+        for(int i=start_ind;i<n;i++){
+            if(s[i]=='-'){
+                is_neg=is_neg+1;
+                continue;
+            }
+            else{
+                start_ind=i;
+                break;
+            }
         }
+        // if(s[start_ind]=='-'){
+        //     is_neg=is_neg+1;
+        //     start_ind++;
+            
+        // }
+
         if(is_neg>=1 && is_plus>=1) return 0;
         if(is_neg>1|| is_plus>1) return 0; 
         
