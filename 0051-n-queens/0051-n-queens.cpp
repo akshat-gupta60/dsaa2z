@@ -36,7 +36,7 @@ public:
 
     }
 
-    void rec(int col, vector<string>&board, vector<vector<string>>&ans){
+    void rec(int col, vector<string>&board, vector<vector<string>>&ans, vector<int>&left, vector<int>&upper_d, vector<int>&lower_d){
         if(col==board[0].size()){
             ans.push_back(board);
             return ;
@@ -44,10 +44,16 @@ public:
 
         for(int row=0;row<board.size();row++){
 
-            if(check(board,row,col)==true){
+            if(left[row]==0&& upper_d[board.size()-1+col-row]==0 && lower_d[row+col]==0){
                 board[row][col]='Q';
-                rec(col+1,board,ans);
+                left[row]=1;
+                upper_d[board.size()-1+col-row]=1;
+                lower_d[row+col]=1;
+                rec(col+1,board,ans,left,upper_d,lower_d);
                 board[row][col]='.';
+                 left[row]=0;
+                upper_d[board.size()-1+col-row]=0;
+                lower_d[row+col]=0;
 
             }
         }
@@ -66,8 +72,11 @@ public:
         }
 
         vector<vector<string>> ans;
+        vector<int>left(n,0);
+        vector<int>upper_d(n+n,0);
+        vector<int>lower_d(n+n,0);
 
-        rec(0,board,ans);
+        rec(0,board,ans,left,lower_d, upper_d);
         return ans;
 
     }
