@@ -1,6 +1,6 @@
 class Solution {
 public:
-void nextPermutation(vector<int>& nums) {
+string nextPermutation(string &nums) {
         int ind=-1;
         int n=nums.size();
         for(int i= n-1;i>=1;i--){
@@ -13,7 +13,7 @@ void nextPermutation(vector<int>& nums) {
         }
         if(ind==-1){
             sort(nums.begin(),nums.end());
-            return ;
+            return nums;
         }
 
 
@@ -24,15 +24,17 @@ void nextPermutation(vector<int>& nums) {
         
         int greater_val=INT_MAX;
         for(int i=n-1;i>=ind;i--){
-           if(nums[i]>nums[ind-1] && greater_val>nums[i]){
-                greater_val=nums[i];
+            int a=nums[i]-'0';
+            int b=nums[ind-1]-'0';
+           if(a>b && greater_val>a){
+                greater_val=a;
                 index_greater=i;
                 
            }
         }
         swap(nums[index_greater],nums[ind-1]);
         reverse(nums.begin()+ind,nums.end());
-        return ;
+        return nums;
     }
     string getPermutation(int n, int k) {
         string x="";
@@ -40,13 +42,17 @@ void nextPermutation(vector<int>& nums) {
         x+='0'+i;
     }
 
-    vector<string>ans;
-    
-    do{
-        ans.push_back(x);
-    }while(next_permutation(x.begin(),x.end()));
-
-    return ans[k-1];
+   
+    int a=k;
+    string ans=x;
+    while(a>1){
+       
+        ans=(nextPermutation(x));
+        a--;
+       
+        
+    }
+    return ans;
 
         
     }
