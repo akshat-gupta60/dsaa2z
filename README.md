@@ -25,6 +25,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0136-single-number](https://github.com/akshat-gupta60/dsaa2z/tree/master/0136-single-number) |
 | [0231-power-of-two](https://github.com/akshat-gupta60/dsaa2z/tree/master/0231-power-of-two) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/akshat-gupta60/dsaa2z/tree/master/2323-minimum-bit-flips-to-convert-number) |
+## Array
+|  |
+| ------- |
+| [0136-single-number](https://github.com/akshat-gupta60/dsaa2z/tree/master/0136-single-number) |
 <!---LeetCode Topics End-->
