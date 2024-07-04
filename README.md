@@ -26,4 +26,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/akshat-gupta60/dsaa2z/tree/master/0231-power-of-two) |
+| [2323-minimum-bit-flips-to-convert-number](https://github.com/akshat-gupta60/dsaa2z/tree/master/2323-minimum-bit-flips-to-convert-number) |
 <!---LeetCode Topics End-->
