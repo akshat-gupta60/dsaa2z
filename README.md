@@ -27,11 +27,17 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0029-divide-two-integers](https://github.com/akshat-gupta60/dsaa2z/tree/master/0029-divide-two-integers) |
+| [0078-subsets](https://github.com/akshat-gupta60/dsaa2z/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/akshat-gupta60/dsaa2z/tree/master/0136-single-number) |
 | [0231-power-of-two](https://github.com/akshat-gupta60/dsaa2z/tree/master/0231-power-of-two) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/akshat-gupta60/dsaa2z/tree/master/2323-minimum-bit-flips-to-convert-number) |
 ## Array
 |  |
 | ------- |
+| [0078-subsets](https://github.com/akshat-gupta60/dsaa2z/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/akshat-gupta60/dsaa2z/tree/master/0136-single-number) |
+## Backtracking
+|  |
+| ------- |
+| [0078-subsets](https://github.com/akshat-gupta60/dsaa2z/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
