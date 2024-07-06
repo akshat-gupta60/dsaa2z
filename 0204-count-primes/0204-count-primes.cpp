@@ -3,15 +3,17 @@ public:
 
 
     int countPrimes(int n) {
-        vector<int>sieve(n+1,1);
+
+        long long n1=n;
+        vector<int>sieve(n1+1,1);
 
 
-        for(int i=2;i<=n;i++){
+        for(int i=2;i*i<=n1;i++){
 
             if(sieve[i]==1){
                
 
-                for(int j=i*2;j<=n;j=j+i){
+                for(long long j=i*i;j<=n1;j=j+(i)){
                     sieve[j]=0;
                 }
             }
