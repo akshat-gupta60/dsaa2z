@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/akshat-gupta60/dsaa2z/tree/master/0002-add-two-numbers) |
 | [0029-divide-two-integers](https://github.com/akshat-gupta60/dsaa2z/tree/master/0029-divide-two-integers) |
+| [0050-powx-n](https://github.com/akshat-gupta60/dsaa2z/tree/master/0050-powx-n) |
 | [0204-count-primes](https://github.com/akshat-gupta60/dsaa2z/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/akshat-gupta60/dsaa2z/tree/master/0231-power-of-two) |
 ## Recursion
@@ -19,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/akshat-gupta60/dsaa2z/tree/master/0002-add-two-numbers) |
 | [0025-reverse-nodes-in-k-group](https://github.com/akshat-gupta60/dsaa2z/tree/master/0025-reverse-nodes-in-k-group) |
+| [0050-powx-n](https://github.com/akshat-gupta60/dsaa2z/tree/master/0050-powx-n) |
 | [0231-power-of-two](https://github.com/akshat-gupta60/dsaa2z/tree/master/0231-power-of-two) |
 ## Hash Table
 |  |
