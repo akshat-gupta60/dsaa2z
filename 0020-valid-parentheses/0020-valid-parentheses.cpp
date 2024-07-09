@@ -3,7 +3,7 @@ public:
     bool isValid(string s) {
         stack<char>st;
         int n=s.size();
-        if(s[0]==')'|| s[0]=='}' || s[0]==']') return false;
+        // if(s[0]==')'|| s[0]=='}' || s[0]==']') return false;
         for(int i=0;i<n;i++){
             if(s[i]=='('|| s[i]=='{'|| s[i]=='['){
                 st.push(s[i]);
