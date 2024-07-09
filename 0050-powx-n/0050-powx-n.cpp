@@ -19,10 +19,10 @@ public:
             }
         }
 
-        if(n<0){
-            return (1/res);
+        if(n>0){
+            return (res);
 
         }
-        return res;
+        return 1/res;
     }
 };
