@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0138-copy-list-with-random-pointer](https://github.com/akshat-gupta60/dsaa2z/tree/master/0138-copy-list-with-random-pointer) |
+| [0496-next-greater-element-i](https://github.com/akshat-gupta60/dsaa2z/tree/master/0496-next-greater-element-i) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -40,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/akshat-gupta60/dsaa2z/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/akshat-gupta60/dsaa2z/tree/master/0136-single-number) |
 | [0204-count-primes](https://github.com/akshat-gupta60/dsaa2z/tree/master/0204-count-primes) |
+| [0496-next-greater-element-i](https://github.com/akshat-gupta60/dsaa2z/tree/master/0496-next-greater-element-i) |
 ## Backtracking
 |  |
 | ------- |
@@ -59,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/akshat-gupta60/dsaa2z/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/akshat-gupta60/dsaa2z/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/akshat-gupta60/dsaa2z/tree/master/0232-implement-queue-using-stacks) |
+| [0496-next-greater-element-i](https://github.com/akshat-gupta60/dsaa2z/tree/master/0496-next-greater-element-i) |
 ## Design
 |  |
 | ------- |
@@ -74,4 +77,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/akshat-gupta60/dsaa2z/tree/master/0020-valid-parentheses) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0496-next-greater-element-i](https://github.com/akshat-gupta60/dsaa2z/tree/master/0496-next-greater-element-i) |
 <!---LeetCode Topics End-->
