@@ -1,36 +1,49 @@
 class Solution {
 public:
-    int sumSubarrayMins(vector<int>& a) {
-        int n=a.size();
-        vector<long long>minleft(n,0);
-        vector<long long>minright(n,0);
-        stack<pair<int,int>>lf;
-        stack<pair<int,int>>rt;
+    int sumSubarrayMins(vector<int>& arr) {
+        int n=arr.size();
+        stack<pair<long long,long long>>left_mn,right_mn;
+        vector<long long >left(n,0),right(n,0);
+        long long mod=1e9+7;
+        
         for(int i=0;i<n;i++){
-            int ct=1;
-            while(lf.size()!=0&&lf.top().first>a[i]){
-                ct=ct+lf.top().second;
-                lf.pop();
+            long long int ct=1;
+            while(left_mn.size()!=0 && left_mn.top().first>arr[i]){
+                ct=ct+left_mn.top().second;
+                left_mn.pop();
+                
             }
-            lf.push(make_pair(a[i],ct));
-            minleft[i]=ct;
+            left_mn.push({arr[i],ct});
+            left[i]=(ct);
+            
+            
         }
-         for(int i=n-1;i>=0;i--){
-            int ct=1;
-            while(rt.size()!=0&&rt.top().first>=a[i]){
-                ct=ct+rt.top().second;
-                rt.pop();
+
+        for(int i=n-1;i>=0;i--){
+            long long int ct=1;
+            while(right_mn.size()!=0 && right_mn.top().first>=arr[i]){
+                ct=ct+right_mn.top().second;
+                right_mn.pop();
+               
+                
             }
-            rt.push(make_pair(a[i],ct));
-            minright[i]=ct;
+             right_mn.push({arr[i],ct});
+            right[i]=(ct);
+            
+            
         }
-        long long sum=0;
-        long long m=1000000007;
+        //reverse(right.begin(),right.end());
+
+        // return left[3];
+        int ans=0;
+
         for(int i=0;i<n;i++){
-            long long b=(minleft[i])*(minright[i]);
-            long long c=(a[i]*b);
-            sum=(sum+c)%m;
+
+            long long a=(left[i]*right[i]);
+            ans=(ans+a*arr[i])%mod;
         }
-        return sum;
+        return ans;
+
+
     }
 };
