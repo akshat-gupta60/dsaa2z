@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/akshat-gupta60/dsaa2z/tree/master/0002-add-two-numbers) |
 | [0025-reverse-nodes-in-k-group](https://github.com/akshat-gupta60/dsaa2z/tree/master/0025-reverse-nodes-in-k-group) |
 | [0138-copy-list-with-random-pointer](https://github.com/akshat-gupta60/dsaa2z/tree/master/0138-copy-list-with-random-pointer) |
+| [0146-lru-cache](https://github.com/akshat-gupta60/dsaa2z/tree/master/0146-lru-cache) |
 ## Math
 |  |
 | ------- |
@@ -26,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0138-copy-list-with-random-pointer](https://github.com/akshat-gupta60/dsaa2z/tree/master/0138-copy-list-with-random-pointer) |
+| [0146-lru-cache](https://github.com/akshat-gupta60/dsaa2z/tree/master/0146-lru-cache) |
 | [0496-next-greater-element-i](https://github.com/akshat-gupta60/dsaa2z/tree/master/0496-next-greater-element-i) |
 ## Bit Manipulation
 |  |
@@ -80,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/akshat-gupta60/dsaa2z/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/akshat-gupta60/dsaa2z/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/akshat-gupta60/dsaa2z/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/akshat-gupta60/dsaa2z/tree/master/0232-implement-queue-using-stacks) |
@@ -126,4 +129,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0085-maximal-rectangle](https://github.com/akshat-gupta60/dsaa2z/tree/master/0085-maximal-rectangle) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/akshat-gupta60/dsaa2z/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
