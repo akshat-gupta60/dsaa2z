@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/akshat-gupta60/dsaa2z/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0138-copy-list-with-random-pointer](https://github.com/akshat-gupta60/dsaa2z/tree/master/0138-copy-list-with-random-pointer) |
 | [0146-lru-cache](https://github.com/akshat-gupta60/dsaa2z/tree/master/0146-lru-cache) |
+| [0424-longest-repeating-character-replacement](https://github.com/akshat-gupta60/dsaa2z/tree/master/0424-longest-repeating-character-replacement) |
 | [0496-next-greater-element-i](https://github.com/akshat-gupta60/dsaa2z/tree/master/0496-next-greater-element-i) |
 ## Bit Manipulation
 |  |
@@ -99,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/akshat-gupta60/dsaa2z/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0020-valid-parentheses](https://github.com/akshat-gupta60/dsaa2z/tree/master/0020-valid-parentheses) |
 | [0402-remove-k-digits](https://github.com/akshat-gupta60/dsaa2z/tree/master/0402-remove-k-digits) |
+| [0424-longest-repeating-character-replacement](https://github.com/akshat-gupta60/dsaa2z/tree/master/0424-longest-repeating-character-replacement) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -140,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/akshat-gupta60/dsaa2z/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0424-longest-repeating-character-replacement](https://github.com/akshat-gupta60/dsaa2z/tree/master/0424-longest-repeating-character-replacement) |
 | [1046-max-consecutive-ones-iii](https://github.com/akshat-gupta60/dsaa2z/tree/master/1046-max-consecutive-ones-iii) |
 ## Binary Search
 |  |
