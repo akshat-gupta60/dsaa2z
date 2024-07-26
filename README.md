@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/akshat-gupta60/dsaa2z/tree/master/0050-powx-n) |
 | [0204-count-primes](https://github.com/akshat-gupta60/dsaa2z/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/akshat-gupta60/dsaa2z/tree/master/0231-power-of-two) |
+| [1370-count-number-of-nice-subarrays](https://github.com/akshat-gupta60/dsaa2z/tree/master/1370-count-number-of-nice-subarrays) |
 ## Recursion
 |  |
 | ------- |
@@ -31,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/akshat-gupta60/dsaa2z/tree/master/0146-lru-cache) |
 | [0424-longest-repeating-character-replacement](https://github.com/akshat-gupta60/dsaa2z/tree/master/0424-longest-repeating-character-replacement) |
 | [0496-next-greater-element-i](https://github.com/akshat-gupta60/dsaa2z/tree/master/0496-next-greater-element-i) |
+| [1370-count-number-of-nice-subarrays](https://github.com/akshat-gupta60/dsaa2z/tree/master/1370-count-number-of-nice-subarrays) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -53,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0735-asteroid-collision](https://github.com/akshat-gupta60/dsaa2z/tree/master/0735-asteroid-collision) |
 | [0943-sum-of-subarray-minimums](https://github.com/akshat-gupta60/dsaa2z/tree/master/0943-sum-of-subarray-minimums) |
 | [1046-max-consecutive-ones-iii](https://github.com/akshat-gupta60/dsaa2z/tree/master/1046-max-consecutive-ones-iii) |
+| [1370-count-number-of-nice-subarrays](https://github.com/akshat-gupta60/dsaa2z/tree/master/1370-count-number-of-nice-subarrays) |
 | [2227-sum-of-subarray-ranges](https://github.com/akshat-gupta60/dsaa2z/tree/master/2227-sum-of-subarray-ranges) |
 ## Backtracking
 |  |
@@ -144,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/akshat-gupta60/dsaa2z/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/akshat-gupta60/dsaa2z/tree/master/0424-longest-repeating-character-replacement) |
 | [1046-max-consecutive-ones-iii](https://github.com/akshat-gupta60/dsaa2z/tree/master/1046-max-consecutive-ones-iii) |
+| [1370-count-number-of-nice-subarrays](https://github.com/akshat-gupta60/dsaa2z/tree/master/1370-count-number-of-nice-subarrays) |
 ## Binary Search
 |  |
 | ------- |
