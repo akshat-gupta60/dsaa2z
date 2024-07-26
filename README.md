@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/akshat-gupta60/dsaa2z/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0138-copy-list-with-random-pointer](https://github.com/akshat-gupta60/dsaa2z/tree/master/0138-copy-list-with-random-pointer) |
 | [0146-lru-cache](https://github.com/akshat-gupta60/dsaa2z/tree/master/0146-lru-cache) |
 | [0496-next-greater-element-i](https://github.com/akshat-gupta60/dsaa2z/tree/master/0496-next-greater-element-i) |
@@ -94,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/akshat-gupta60/dsaa2z/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0020-valid-parentheses](https://github.com/akshat-gupta60/dsaa2z/tree/master/0020-valid-parentheses) |
 | [0402-remove-k-digits](https://github.com/akshat-gupta60/dsaa2z/tree/master/0402-remove-k-digits) |
 ## Monotonic Stack
@@ -133,4 +135,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/akshat-gupta60/dsaa2z/tree/master/0146-lru-cache) |
+## Sliding Window
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/akshat-gupta60/dsaa2z/tree/master/0003-longest-substring-without-repeating-characters) |
 <!---LeetCode Topics End-->
